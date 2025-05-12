@@ -1,0 +1,1 @@
+builtin_interfaces;nav2_common;rclcpp;nav2_core;nav_msgs;geometry_msgs;nav2_costmap_2d;pluginlib;tf2_ros;tf2_geometry_msgs;nav2_util;ament_lint_auto;ament_lint_common;ament_cmake_gtest

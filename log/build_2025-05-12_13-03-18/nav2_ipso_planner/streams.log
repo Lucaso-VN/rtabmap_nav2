@@ -1,0 +1,84 @@
+[0.036s] Invoking command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ubuntu_ros2/model_ws/src/nav2_ipso_planner -DCMAKE_INSTALL_PREFIX=/home/ubuntu_ros2/model_ws/install/nav2_ipso_planner
+[0.346s] -- The C compiler identification is GNU 11.4.0
+[0.525s] -- The CXX compiler identification is GNU 11.4.0
+[0.555s] -- Detecting C compiler ABI info
+[0.710s] -- Detecting C compiler ABI info - done
+[0.719s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.719s] -- Detecting C compile features
+[0.720s] -- Detecting C compile features - done
+[0.727s] -- Detecting CXX compiler ABI info
+[0.873s] -- Detecting CXX compiler ABI info - done
+[0.882s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.883s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.895s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.150s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.423s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.562s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.590s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.625s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.820s] -- Found nav2_common: 1.1.18 (/opt/ros/humble/share/nav2_common/cmake)
+[1.839s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[2.009s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.025s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.327s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.390s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.533s] -- Looking for pthread.h
+[2.693s] -- Looking for pthread.h - found
+[2.693s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.829s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.833s] -- Found Threads: TRUE  
+[2.995s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.084s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[3.745s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.745s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.040s] -- Setting build type to Release as none was specified.
+[4.330s] -- Configuring done
+[4.551s] -- Generating done
+[4.560s] -- Build files have been written to: /home/ubuntu_ros2/model_ws/build/nav2_ipso_planner
+[4.574s] Invoked command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/ubuntu_ros2/model_ws/src/nav2_ipso_planner -DCMAKE_INSTALL_PREFIX=/home/ubuntu_ros2/model_ws/install/nav2_ipso_planner
+[4.577s] Invoking command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu_ros2/model_ws/build/nav2_ipso_planner -- -j4 -l4
+[4.696s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_ipso_planner.dir/src/ipso.cpp.o[0m
+[4.696s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_ipso_planner.dir/src/ipso_planner.cpp.o[0m
+[4.709s] [ 75%] [32mBuilding CXX object CMakeFiles/nav2_ipso_planner.dir/src/TrajectoryGeneration.cpp.o[0m
+[17.025s] [100%] [32m[1mLinking CXX shared library libnav2_ipso_planner.so[0m
+[17.606s] [100%] Built target nav2_ipso_planner
+[17.632s] Invoked command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu_ros2/model_ws/build/nav2_ipso_planner -- -j4 -l4
+[17.634s] Invoking command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu_ros2/model_ws/build/nav2_ipso_planner
+[17.649s] -- Install configuration: "Release"
+[17.649s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/ipso_planner.xml
+[17.650s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/lib/libnav2_ipso_planner.so
+[17.651s] -- Set runtime path of "/home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/lib/libnav2_ipso_planner.so" to ""
+[17.651s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/include/
+[17.651s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/include//nav2_ipso_planner
+[17.651s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/include//nav2_ipso_planner/ipso_planner.hpp
+[17.651s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/include//nav2_ipso_planner/TrajectoryGeneration.hpp
+[17.652s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/include//nav2_ipso_planner/ipso.hpp
+[17.652s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/ipso_planner.xml
+[17.652s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/params
+[17.652s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/params/ipso_planner.yaml
+[17.653s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/library_path.sh
+[17.654s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/library_path.dsv
+[17.654s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/ament_index/resource_index/package_run_dependencies/nav2_ipso_planner
+[17.655s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/ament_index/resource_index/parent_prefix_path/nav2_ipso_planner
+[17.655s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/ament_prefix_path.sh
+[17.655s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/ament_prefix_path.dsv
+[17.655s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/path.sh
+[17.656s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/environment/path.dsv
+[17.656s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/local_setup.bash
+[17.656s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/local_setup.sh
+[17.657s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/local_setup.zsh
+[17.657s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/local_setup.dsv
+[17.657s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/package.dsv
+[17.657s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/ament_index/resource_index/packages/nav2_ipso_planner
+[17.657s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_ipso_planner
+[17.658s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.658s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[17.658s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.658s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/cmake/nav2_ipso_plannerConfig.cmake
+[17.659s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/cmake/nav2_ipso_plannerConfig-version.cmake
+[17.659s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_ipso_planner/share/nav2_ipso_planner/package.xml
+[17.680s] Invoked command in '/home/ubuntu_ros2/model_ws/build/nav2_ipso_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu_ros2/model_ws/build/nav2_ipso_planner

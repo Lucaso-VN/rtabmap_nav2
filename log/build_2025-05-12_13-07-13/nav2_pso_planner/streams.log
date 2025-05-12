@@ -1,0 +1,38 @@
+[0.051s] Invoking command in '/home/ubuntu_ros2/model_ws/build/nav2_pso_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu_ros2/model_ws/build/nav2_pso_planner -- -j4 -l4
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target nav2_pso_planner[0m
+[0.276s] [100%] Built target nav2_pso_planner
+[0.325s] Invoked command in '/home/ubuntu_ros2/model_ws/build/nav2_pso_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu_ros2/model_ws/build/nav2_pso_planner -- -j4 -l4
+[0.332s] Invoking command in '/home/ubuntu_ros2/model_ws/build/nav2_pso_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu_ros2/model_ws/build/nav2_pso_planner
+[0.355s] -- Install configuration: "Release"
+[0.357s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/pso_planner.xml
+[0.359s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/lib/libnav2_pso_planner.so
+[0.360s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/include/
+[0.361s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/include//nav2_pso_planner
+[0.361s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/include//nav2_pso_planner/TrajectoryGeneration.hpp
+[0.361s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/include//nav2_pso_planner/pso_planner.hpp
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/include//nav2_pso_planner/pso.hpp
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/pso_planner.xml
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/params
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/params/pso_planner.yaml
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/library_path.sh
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/library_path.dsv
+[0.362s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/ament_index/resource_index/package_run_dependencies/nav2_pso_planner
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/ament_index/resource_index/parent_prefix_path/nav2_pso_planner
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/ament_prefix_path.dsv
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/path.sh
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/environment/path.dsv
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/local_setup.bash
+[0.363s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/local_setup.sh
+[0.364s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/local_setup.zsh
+[0.364s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/local_setup.dsv
+[0.364s] -- Installing: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/package.dsv
+[0.364s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/ament_index/resource_index/packages/nav2_pso_planner
+[0.364s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_pso_planner
+[0.364s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.365s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[0.365s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.365s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/cmake/nav2_pso_plannerConfig.cmake
+[0.365s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/cmake/nav2_pso_plannerConfig-version.cmake
+[0.365s] -- Up-to-date: /home/ubuntu_ros2/model_ws/install/nav2_pso_planner/share/nav2_pso_planner/package.xml
+[0.404s] Invoked command in '/home/ubuntu_ros2/model_ws/build/nav2_pso_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu_ros2/ws_moveit2/install/moveit_configs_utils:/home/ubuntu_ros2/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu_ros2/model_ws/build/nav2_pso_planner

@@ -1,0 +1,98 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ubuntu_ros2/model_ws/build/my_robot_brightup
+-- Install configuration: ""
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/rtabmap.launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/rtabmap_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/navigation_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/launch_sim.launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/rsp.launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/bot_rgbd_scan.launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/nav2_rtabmap_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/bringup_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/turtlebot3_rgbd_scan.launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/online_async_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//launch/localization_launch.py
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/inertial_macros.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/robot.urdf.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/imu.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/depth_camera (copy).xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/lidar.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/robot_core.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/gazebo_control.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/ros2_control.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/depth_camera.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//description/camera.xacro
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/view_bot.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/nav2_params.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/slam_bot.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/rtabmap_sim.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/my_controllers.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/ekf.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/sensor_bot.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/demo_robot_mapping.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/ekf_rtabmap.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/twist_mux.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/diff_drive_bot.rviz
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/rtabmap_params.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/mapper_params_online_async.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//config/bot_rgbd_scan_nav2_params.yaml
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/fetchit_challenge_tests_lowlights.world
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/small_house
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/small_house/model.config
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/small_house/model.sdf
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/room.world
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house/model.config
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house/house
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house/house/model.config
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house/house/model.sdf
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house/model.sdf
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/obstacles.world
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/house.world
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/room
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/room/model.config
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//world/room/model.sdf
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//database
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//database/my_map
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//database/my_map/rtabmap1.db
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//database/my_map/rtabmap2.db
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup//database/my_map/rtabmap.db
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/ament_index/resource_index/package_run_dependencies/my_robot_brightup
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/ament_index/resource_index/parent_prefix_path/my_robot_brightup
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/environment/ament_prefix_path.sh
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/environment/ament_prefix_path.dsv
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/environment/path.sh
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/environment/path.dsv
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/local_setup.bash
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/local_setup.sh
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/local_setup.zsh
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/local_setup.dsv
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/package.dsv
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/ament_index/resource_index/packages/my_robot_brightup
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/cmake/my_robot_brightupConfig.cmake
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/cmake/my_robot_brightupConfig-version.cmake
+-- Installing: /home/ubuntu_ros2/model_ws/install/my_robot_brightup/share/my_robot_brightup/package.xml
